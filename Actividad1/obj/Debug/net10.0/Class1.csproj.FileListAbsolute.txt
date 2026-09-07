@@ -1,0 +1,14 @@
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\bin\Debug\net10.0\Class1.exe
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\bin\Debug\net10.0\Class1.deps.json
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\bin\Debug\net10.0\Class1.runtimeconfig.json
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\bin\Debug\net10.0\Class1.dll
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\bin\Debug\net10.0\Class1.pdb
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.AssemblyInfoInputs.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.AssemblyInfo.cs
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.csproj.CoreCompileInputs.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.dll
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\refint\Class1.dll
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.pdb
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\Class1.genruntimeconfig.cache
+C:\Users\Leonel Mendoza\Documents\HPA3\Class1\obj\Debug\net10.0\ref\Class1.dll
