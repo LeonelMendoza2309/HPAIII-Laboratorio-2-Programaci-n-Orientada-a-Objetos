@@ -45,15 +45,14 @@ A continuación una versión simplificada de la estructura del proyecto con una 
 
 ```
 HPAIII-Laboratorio-2-Programación-Orientada-a-Objetos/
-├── Actividad1/                        # Proyecto C#: Ejemplo básico (Libro de calificaciones)
-├── Actividad2/                        # Proyecto C#: Entrada por consola y parámetros
-├── Actividad3_Variables_de_Instancia_y_Propiedades/  # Proyecto C#: Uso de propiedades y constructores
+├── Actividad1                         # Proyecto C#: Ejemplo básico (Libro de calificaciones)
+├── Actividad2                         # Proyecto C#: Entrada por consola y parámetros
+├── Actividad3                         # Proyecto C#: Uso de propiedades y constructores
 ├── README.md                          # Documentación del repositorio
-├── .gitignore                         # Reglas de archivos ignorados
-└── docs/                              # Recursos o capturas (opcional)
-```
+└── .gitignore                         # Reglas de archivos ignorados
 
-Cada carpeta `ActividadX` es un proyecto independiente con su propio `.csproj`, `Program.cs` y clases que ilustran los conceptos trabajados.
+```
+en esta sección se redactan los proyectos/actividades realizadas
 
 ---
 
