@@ -48,19 +48,19 @@ HPAIII-Laboratorio-2-Programación-Orientada-a-Objetos/
 ├── Actividad1                         # Proyecto C#: Ejemplo básico (Libro de calificaciones)
 ├── Actividad2                         # Proyecto C#: Entrada por consola y parámetros
 ├── Actividad3                         # Proyecto C#: Uso de propiedades y constructores
-├── README.md                          # Documentación del repositorio
-└── .gitignore                         # Reglas de archivos ignorados
+└── README.md                          # Documentación del repositorio
+
 
 ```
-en esta sección se redactan los proyectos/actividades realizadas
+### En esta sección se redactan los proyectos/actividades realizadas:
 
 ---
 
 ## Tecnología principal
 
-- Lenguaje: C# (uso en los proyectos de ejemplo)
+- Lenguaje: C# (Curso centrado en este lenguaje)
 - Plataforma / Runtime: .NET 10.0 (TargetFramework: `net10.0`)
-- Entorno de desarrollo sugerido: Visual Studio Community 2022 (puede usarse también VS Code con la extensión C#)
+- Entorno de desarrollo sugerido: Visual Studio Community 2022
 - Compilador: Roslyn (csc)
 - Control de versiones y alojamiento: Git / GitHub
 
@@ -79,9 +79,9 @@ Requisitos mínimos para compilar y ejecutar los proyectos:
 
 ## Instalación y ejecución
 
-Pasos rápidos desde una máquina con .NET instalado.
+Pasos de una máquina con .NET instalado.
 
-Clonar el repositorio:
+Primero debe clonar el repositorio:
 
 ```bash
 git clone https://github.com/LeonelMendoza2309/HPAIII-Laboratorio-2-Programaci-n-Orientada-a-Objetos.git
@@ -94,7 +94,7 @@ Ejecutar con Visual Studio (GUI):
 3. En el Explorador de soluciones, seleccionar el proyecto que desea ejecutar y marcarlo como "Startup Project".
 4. Ejecutar con F5 (depuración) o Ctrl+F5 (sin depuración).
 
-Ejecutar con dotnet CLI (línea de comandos):
+si se desea Tambien puede ejecutar con dotnet CLI de esta manera (es la línea de comandos):
 
 ```bash
 # Actividad1
@@ -112,7 +112,6 @@ dotnet run
 
 Notas adicionales:
 - Algunos programas leen entrada desde consola (Console.ReadLine). Introduzca los datos cuando se le solicite.
-- Si desea ejecutar el binario compilado directamente, busque el ejecutable en `./bin/Debug/net10.0/` tras compilar.
 - Para limpiar artefactos de compilación: `dotnet clean` dentro del proyecto o desde la raíz para todos.
 
 ---
@@ -135,8 +134,7 @@ Lista de problemas relevantes detectados durante el desarrollo y cómo se resolv
 | 1 | NullReferenceException | Objetos o variables no inicializadas producían fallos en tiempo de ejecución | Inicializar en constructores y añadir validaciones antes de usar referencias nulas |
 | 2 | Campos públicos vs propiedades | Uso de campos públicos exponía estado interno | Cambiar campos a privados y exponer mediante propiedades (`get`/`set`) con validaciones cuando aplica |
 | 3 | Namespaces duplicados | Clases con el mismo nombre en diferentes proyectos | Definir namespaces por actividad para evitar choques al usar varios proyectos juntos |
-| 4 | TargetFramework inconsistente | Proyectos apuntaban a versiones distintas de .NET en algunos equipos | Unificar `TargetFramework` a `net10.0` en los `.csproj` |
-| 5 | Mensajes de entrada poco claros | Usuarios no sabían cuándo ingresar datos en consola | Añadir mensajes informativos antes de `Console.ReadLine()` y documentar la entrada requerida |
+| 4 | Mensajes de entrada poco claros | Usuarios no iban a saber cuándo ingresar datos en consola | Añadir mensajes informativos antes de `Console.ReadLine()` y documentar la entrada requerida |
 
 Evidencia visual (agrega tu captura en `docs/result.png`):
 
@@ -159,7 +157,7 @@ Salida esperada (ejemplo):
 ```
 ========== RESULTADOS DEL LABORATORIO ==========
 Bienvenido al libro de calificaciones para 
- [Nombre del Curso]
+ [Nombre del curso ingresado]
 
 Compilación sin errores
 Ejecución correcta del programa
@@ -170,14 +168,13 @@ Propiedades funcionando correctamente
 
 ---
 
-## Conclusiones
+## Conclusiones del trabajo
 
 - Se afianzaron los conceptos fundamentales de POO aplicados en C#.
-- La separación por proyectos facilita experimentar con cada concepto de forma aislada.
 - Se recomienda añadir pruebas unitarias y mayor validación de entrada para robustecer los ejercicios.
 
 ---
 
 **Última actualización:** 08/09/2026  
 **Versión:** 2.0  
-**Estado:** Completado
+**Estado:** Completado y entregado
