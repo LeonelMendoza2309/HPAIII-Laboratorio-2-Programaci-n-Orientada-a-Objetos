@@ -136,11 +136,19 @@ Lista de problemas relevantes detectados durante el desarrollo y cómo se resolv
 | 3 | Namespaces duplicados | Clases con el mismo nombre en diferentes proyectos | Definir namespaces por actividad para evitar choques al usar varios proyectos juntos |
 | 4 | Mensajes de entrada poco claros | Usuarios no iban a saber cuándo ingresar datos en consola | Añadir mensajes informativos antes de `Console.ReadLine()` y documentar la entrada requerida |
 
-Evidencia visual (agrega tu captura en `docs/result.png`):
-
 ```markdown
-### Resultado del sistema
-![Ejecución del programa](docs/result.png)
+### Resultado visual del sistema
+Actividad 1
+
+<img width="776" height="290" alt="image" src="https://github.com/user-attachments/assets/a92abcd2-99e0-4975-96d0-e55358fb03fc" />
+
+Actividad 2
+<img width="599" height="307" alt="image" src="https://github.com/user-attachments/assets/b710199f-afdc-4faa-842f-c7b8b8570911" />
+
+Actividad 3
+<img width="512" height="501" alt="image" src="https://github.com/user-attachments/assets/a620dcf0-e3f8-467e-bb1f-e11184ce3bf0" />
+
+
 ```
 
 ---
